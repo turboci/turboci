@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
 
   return (
-    //test
+    //testing
     <>
       <Head>
         <title>Create T3 App</title>
