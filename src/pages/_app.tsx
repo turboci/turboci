@@ -17,4 +17,6 @@ const MyApp: AppType<{ session: Session | null }> = ({
   );
 };
 
+//TEST
+
 export default trpc.withTRPC(MyApp);
